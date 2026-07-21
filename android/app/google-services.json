@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "343437321688",
+    "project_id": "appi-dedca",
+    "storage_bucket": "appi-dedca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343437321688:android:6bf57b4ecd7e5a6bdbbead",
+        "android_client_info": {
+          "package_name": "com.example.fr024_iluminancia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6bTr71qXPAQKX91KUtBatW8EtsNQxQVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

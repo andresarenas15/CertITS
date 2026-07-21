@@ -1,0 +1,53 @@
+name: fr024_iluminancia
+description: FR024 Verificación de Iluminancia
+publish_to: "none"
+version: 1.0.0+1
+
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^4.3.0
+  cloud_firestore: ^6.1.1
+  firebase_auth: ^6.1.3
+  file_picker: ^8.0.3
+
+  # UI / Util
+  intl: ^0.20.0
+  shared_preferences: ^2.3.2
+
+  # Firma
+  signature: ^6.3.0
+
+  # PDF
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # Archivos y Networking
+  path_provider: ^2.1.5
+  open_filex: ^4.6.0  # Usaremos open_filex (es más moderno que open_file)
+  http: ^1.6.0
+  image_picker: ^1.2.2
+  firebase_remote_config: 6.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fr024_template_p1.png
+    - assets/firmas/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
