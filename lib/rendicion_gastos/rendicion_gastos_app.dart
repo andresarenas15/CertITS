@@ -449,6 +449,8 @@ class _GenerarRendicionPageState extends State<GenerarRendicionPage> {
       'Oliver Milla': "BANCO DESTINO: INTERBANK\nN° CUENTA: 8983474957987\nCCI: 00389801347495798743\nPLIN: 915193302\nA nombre de: Juan Oliver Milla Luyo",
       'Jhon Vega': "BANCO DESTINO: BCP\nN° CUENTA: 19197591176043\nCCI: 00219119759117604359\nYAPE: 912961208\nA nombre de: Jhon Vega Huillcas",
       'Victor Gil': "BANCO DESTINO: INTERBANK\nN° CUENTA: 8983416904989\nCCI: 00389801341690498944\nPLIN: 908628513\nA nombre de: Víctor Miguel Gil Miranda",
+      'Héctor Sandoval': "BANCO DESTINO: INTERBANK\nN° CUENTA: 8983472559534\nCCI: 00389801347255953449\nPLIN/YAPE: 982054070\nA nombre de: Héctor Sandoval Uceda",
+      'Marco Carrasco': "BANCO DESTINO: INTERBANK\nN° CUENTA: 2003096915018\nCCI: 00320001309691501839\nPLIN/YAPE: 992222128\nA nombre de: Marco Carrasco Infantes Infantes"
     };
     return d[name] ?? "Datos bancarios no disponibles";
   }
